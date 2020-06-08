@@ -21,7 +21,6 @@ edited remotely
 Edited locally #2
 
 edited remotely #2
-<<<<<<< HEAD
 
 Edited locally #3
 
