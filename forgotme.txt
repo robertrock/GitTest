@@ -3,4 +3,9 @@ Some random code here
 0987654321
 12345
 
+<<<<<<< HEAD
 testing fetch?? 
+Edited locally
+editing dev remotely
+Reconciled locally
+
