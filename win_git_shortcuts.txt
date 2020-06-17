@@ -34,7 +34,6 @@ List aliases (Windows)
 git config --get-regexp alias
 
 
-
 White space check, before commit 
 ================================
 Git diff --check
