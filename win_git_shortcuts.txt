@@ -1,8 +1,10 @@
 https://githowto.com/aliases
+Https://git-scm.com/docs
+
 
 
 Windows bash
-
+============
 git config --global alias.st status
 git config --global alias.br branch
 git config --global alias.co checkout
@@ -11,8 +13,8 @@ git config --global alias.a add -A
 
 
 MacOS
-
-.GIT/CONFIG
+=====
+.git/config
 
 [alias]
   co = checkout
@@ -22,12 +24,27 @@ MacOS
   a = add
 
 
+Revert all changes
+==================
+git reset --hard (you're back to the last commit)
+
+
+Un-modifying a file
+===================
+git checkout -- <file>
+
+
+Un-stage a file
+==============
+git reset HEAD <file>
+
 
 How can I delete a git alias
 ============================
 http://stackoverflow.com/questions/23512402/ddg#23512420
 
 git config --global --unset alias.trololo
+
 
 List aliases (Windows)
 ======================
@@ -36,15 +53,30 @@ git config --get-regexp alias
 
 White space check, before commit 
 ================================
-Git diff --check
+git diff --check
+
+git diff
+git diff --staged
+
+
+Rename a local branch
+=====================
+If you want to rename a branch while pointed to any branch, do:
+
+git branch -m <oldname> <newname>
+
+To rename current branch:
+git branch -m <newname>
+
 
 Delete a remote branch
 ======================
-Git push origin --delete <branch-name>
+git push origin --delete <branch-name>
+
 
 Delete a local branch
 =====================
-Git branch -d <branch-name>. (Or -D, to force)
+git branch -d <branch-name>. (Or -D, to force)
 
 
 
