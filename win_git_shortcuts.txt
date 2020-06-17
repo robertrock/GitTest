@@ -12,13 +12,14 @@ git config --global alias.a add -A
 
 MacOS
 
-.GITCONFIG
+.GIT/CONFIG
 
 [alias]
   co = checkout
   com = commit
   st = status
   br = branch
+  a = add
 
 
 
