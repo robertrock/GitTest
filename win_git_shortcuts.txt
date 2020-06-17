@@ -5,3 +5,19 @@ git config --global alias.br branch
 git config --global alias.co checkout
 git config --global alias.com commit
 git config --global alias.a add -A
+
+
+How can I delete a git alias
+============================
+http://stackoverflow.com/questions/23512402/ddg#23512420
+
+git config --global --unset alias.trololo
+
+List aliases (Windows)
+======================
+git config --get-regexp alias
+
+
+
+
+
