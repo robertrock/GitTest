@@ -19,5 +19,17 @@ git config --get-regexp alias
 
 
 
+White space check, before commit 
+================================
+Git diff --check
+
+Delete a remote branch
+======================
+Git push origin --delete <branch-name>
+
+Delete a local branch
+=====================
+Git branch -d <branch-name>. (Or -D, to force)
+
 
 
