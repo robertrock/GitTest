@@ -13,3 +13,7 @@ Development branch
 Setup some git aliases on Windows
 
 Added several files to the repo from den pc to Mac
+
+
+Created feature branch, made changes, push to remote, PR/merged
+Checkout dev, git pull origin dev to get changes
