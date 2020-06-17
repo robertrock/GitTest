@@ -23,6 +23,16 @@ MacOS
 
 
 
+Un-modifying a file
+===================
+git checkout -- <file>
+
+
+Un-stage a file
+==============
+git reset HEAD <file>
+
+
 How can I delete a git alias
 ============================
 http://stackoverflow.com/questions/23512402/ddg#23512420
@@ -36,15 +46,18 @@ git config --get-regexp alias
 
 White space check, before commit 
 ================================
-Git diff --check
+git diff --check
+
+git diff
+git diff --staged
 
 Delete a remote branch
 ======================
-Git push origin --delete <branch-name>
+git push origin --delete <branch-name>
 
 Delete a local branch
 =====================
-Git branch -d <branch-name>. (Or -D, to force)
+git branch -d <branch-name>. (Or -D, to force)
 
 
 
