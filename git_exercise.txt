@@ -1,0 +1,15 @@
+Used git on personal repo
+Master
+Development
+And various feature branches
+
+Update branch, push, merge with a PR
+Dev into master
+Feature to dev, dev to master
+
+Pulled remote feature branch(from another developer) into local 
+Development branch
+
+Setup some git aliases on Windows
+
+Added several files to the repo from den pc to Mac
