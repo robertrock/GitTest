@@ -17,3 +17,8 @@ Added several files to the repo from den pc to Mac
 
 Created feature branch, made changes, push to remote, PR/merged
 Checkout dev, git pull origin dev to get changes
+
+
+Deleted remote.   Git push origin --delete <branch name>
+Deleted local	  git branch -d <branch name>
+
