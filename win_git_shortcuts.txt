@@ -12,13 +12,14 @@ git config --global alias.a add -A
 
 MacOS
 
-.GITCONFIG
+.GIT/CONFIG
 
 [alias]
   co = checkout
   com = commit
   st = status
   br = branch
+  a = add
 
 
 
@@ -31,7 +32,6 @@ git config --global --unset alias.trololo
 List aliases (Windows)
 ======================
 git config --get-regexp alias
-
 
 
 White space check, before commit 
