@@ -101,27 +101,34 @@ View commit history
 ===================
 git log
 
-git log -p -2 (see last 2 commits and deltas)
+git log -p -2 					(see last 2 commits and deltas)
 
-git log stat  (shows files changed)
+git log stat  					(shows files changed)
 
-git log --pretty=format:"%h %s" --graph. (graphical view)
+git log --pretty=format:"%h %s" --graph. 	(graphical view)
 
 
 
-Stashing
+Stashing By default, git stash will stash only modified and staged tracked files.
 ========
 
 git stash
 
-git stash list
+git stash -u 			(include untracked files in the stash, minus ignored files)
 
-git stash apply (Keeps the stash)
+git stash -a 			(include untrack and ignored files)
 
-git stash pop.  (Apply stash and remove it)
+git stash list 			(show stash list)
 
-git stash clear (removes all stashes)
+git stash apply 		(Keeps the stash but doesn't restage)
 
+git stash apply --index 	(applies stash and also attempts to restage)
 
+git stash pop --index 		(applies stash and also attempts to restage)
 
-Stash test
+git stash pop.  		(Apply stash and remove it)
+
+git stash clear 		(removes all stashes)
+
+git stash drop stash@{0} 	(remove specific stash)
+
