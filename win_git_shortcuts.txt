@@ -79,4 +79,31 @@ Delete a local branch
 git branch -d <branch-name>. (Or -D, to force)
 
 
+Remove a file
+=============
+remove from OS. $rm myfile
+remove from git $git rm myfile
+git commit 
+
+
+Moving(rename) a file
+=====================
+$ git mv file_from file_to
+
+-or-
+
+$ mv README.md README 
+$ git rm README.md
+$ git add README
+
+
+View commit history
+===================
+git log
+
+git log -p -2 (see last 2 commits and deltas)
+
+git log stat  (shows files changed)
+
+git log --pretty=format:"%h %s" --graph. (graphical view)
 
