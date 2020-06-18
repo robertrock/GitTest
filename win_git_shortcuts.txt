@@ -46,7 +46,16 @@ git checkout -- <file>
 
 Un-stage a file
 ===============
+
+git reset <file>		(move file out of staging area)
+
+or 
+
 git reset HEAD <file>
+
+gut resert  			(to remove all files from staging)
+
+
 
 
 How can I delete a git alias
