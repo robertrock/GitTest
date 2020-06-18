@@ -107,3 +107,19 @@ git log stat  (shows files changed)
 
 git log --pretty=format:"%h %s" --graph. (graphical view)
 
+
+
+Stashing
+========
+
+git stash
+
+git stash list
+
+git stash apply (Keeps the stash)
+
+git stash pop.  (Apply stash and remove it)
+
+git stash clear (removes all stashes)
+
+
