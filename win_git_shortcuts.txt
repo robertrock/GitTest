@@ -24,6 +24,11 @@ MacOS
   a = add
 
 
+Checkout a local branch
+=======================
+git checkout -b <new-branchname>
+
+
 Checkout remote branch
 ======================
 
@@ -106,8 +111,6 @@ Delete a local branch
 git branch -d <branch-name>. (Or -D, to force)
 
 
-
-
 Remove a file
 =============
 remove from OS. $rm myfile
@@ -136,6 +139,13 @@ git log stat  					                  (shows files changed)
 
 git log --pretty=format:"%h %s" --graph. 	(graphical view)
 
+
+Pushing
+=======
+
+git push -u origin <branch>  (-u links local and remote branches)
+
+git push origin <branch>
 
 
 Stashing By default, git stash will stash only modified and staged tracked files.
