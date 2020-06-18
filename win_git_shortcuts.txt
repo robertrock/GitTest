@@ -24,9 +24,19 @@ MacOS
   a = add
 
 
+Checkout remote branch
+======================
+
+git checkout --track origin/<branchname>
+
+git checkout <remote-branch-name>
+
+
 Revert all changes
 ==================
-git reset --hard (you're back to the last commit)
+git reset --hard HEAD (you're back to the last commit for all files)
+
+git merge -abort
 
 
 Un-modifying a file
@@ -35,7 +45,7 @@ git checkout -- <file>
 
 
 Un-stage a file
-==============
+===============
 git reset HEAD <file>
 
 
@@ -56,6 +66,7 @@ White space check, before commit
 git diff --check
 
 git diff
+
 git diff --staged
 
 
@@ -68,6 +79,13 @@ git branch -m <oldname> <newname>
 To rename current branch:
 git branch -m <newname>
 
+List branches
+=============
+
+git branch          (local)
+
+git branch -a       (remote)
+
 
 Delete a remote branch
 ======================
@@ -77,6 +95,8 @@ git push origin --delete <branch-name>
 Delete a local branch
 =====================
 git branch -d <branch-name>. (Or -D, to force)
+
+
 
 
 Remove a file
@@ -101,9 +121,9 @@ View commit history
 ===================
 git log
 
-git log -p -2 					(see last 2 commits and deltas)
+git log -p -2 					                  (see last 2 commits and deltas)
 
-git log stat  					(shows files changed)
+git log stat  					                  (shows files changed)
 
 git log --pretty=format:"%h %s" --graph. 	(graphical view)
 
@@ -114,21 +134,21 @@ Stashing By default, git stash will stash only modified and staged tracked files
 
 git stash
 
-git stash -u 			(include untracked files in the stash, minus ignored files)
+git stash -u 			        (include untracked files in the stash, minus ignored files)
 
-git stash -a 			(include untrack and ignored files)
+git stash -a 			        (include untrack and ignored files)
 
-git stash list 			(show stash list)
+git stash list 			      (show stash list)
 
-git stash apply 		(Keeps the stash but doesn't restage)
+git stash apply 		      (Keeps the stash but doesn't restage)
 
 git stash apply --index 	(applies stash and also attempts to restage)
 
 git stash pop --index 		(applies stash and also attempts to restage)
 
-git stash pop.  		(Apply stash and remove it)
+git stash pop.  		      (Apply stash and remove it)
 
-git stash clear 		(removes all stashes)
+git stash clear 		      (removes all stashes)
 
 git stash drop stash@{0} 	(remove specific stash)
 
