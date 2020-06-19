@@ -171,3 +171,209 @@ git stash clear 		      (removes all stashes)
 
 git stash drop stash@{0} 	(remove specific stash)
 
+
+
+===================================================================================
+Corey Shafer
+https://www.youtube.com/watch?v=HVsySz-h9r4&list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx
+
+Basic Git Commands
+
+git command progression
+=======================
+
+
+git --version
+
+git config --global user.name "some name"
+git config --global user.email "someone@something.com"
+git config --list
+
+git help verb
+git verb --help
+
+git init  (from inside your directory, this creates the .git folder)
+
+touch .gitignore (add files, wildcards)
+
+git add -A (adds untracked and edited files to staging)
+
+git reset <file> (to remove from staging)
+
+git reset (removes all files from staging)
+
+git commit -m "commit message"
+
+git log (shows last commit msg, author, date)
+
+remote repos
+============
+
+git clone <url> .  (dot for current directory)
+
+git clone ../remote_repo.git .
+
+git remote -v   (lists repo info)
+
+git branch -a  ('all' list all local and remote branches)
+
+--after file edits:
+
+git diff   (shows changes)
+
+git status
+
+git add -A
+
+git commit -m "message"
+
+--push to remote
+
+git pull origin development  (reconcile with other devs' code)
+
+git push origin development
+
+--common workflow-------------------
+
+git checkout -b <feature-branch>
+
+edit your files, hack hack hack
+
+git status
+
+git add -A
+
+git commit -m "message"
+
+git push origin <feature-branch>    -u links local to remote for tracking
+
+-- goto AzureDevOps create a Pull request, auto merges
+
+or (for a local merge and push)
+
+git checkout master
+
+git pull origin master
+
+git merge <feature-branch>
+
+git push origin master
+
+-- remove local branch
+
+git branch -d <feature-branch>
+
+git push origin --delete <feature-branch>
+
+
+===================================================================================
+Corey Shafer
+https://www.youtube.com/watch?v=FdZecVxzJbk&list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx&index=2
+
+Fixing common mistakes
+
+-- Backout all changes from a file (before staging and committing)
+
+git checkout <file>
+
+
+-- do a commit with wrong message
+
+git commit --amend -m "new message"
+
+-- after commit, you find that you left out a file
+
+create/edit the file
+
+git add -A <missing-file>
+
+git commit --amend (brings up editor, just save and close it out)
+
+git log --stat (show leftout file)
+
+-- commiting to the wrong branch
+
+git log (to get hash, abcdef to move)
+
+git checkout <feature-branch>
+
+git cherry-pick abcdef   (commit added)
+
+git checkout master
+
+git log (get the hash,'1234' of the previous commit)
+
+git reset --soft 1234  (keeps changes)
+
+git reset 1234  (keeps changes, nothing staged)
+
+git reset --hard 1234  (removes changes, back to 1234 commit)
+
+git clean -df  (untracked dirs, untracked files)
+
+-- recover from a git reset --hard
+
+(must be done before git GC)
+
+git reflog (shows all commits)
+
+-copy the hash that is before the reset,'hash123' and do:
+
+git checkout hash123
+
+-create a branch <backuo>
+
+git branch backup
+
+git checkout backout
+
+-- revert earlier commits that other devs' have checked out
+
+git log (copy the hash val)
+
+git revert hashval
+
+git log (show revert message)
+
+
+
+===================================================================================
+Corey Shafer
+https://www.youtube.com/watch?v=KLEDKgMmbBI&list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx&index=3
+
+Using the Stash command - good if your editing on the wrong branch :) Just stash,
+checkout correct branch and stash apply
+
+edit your file(s), hack, hack, hack
+
+..
+can't switch branches because of changes
+
+git stash save "this is a change for xyz"
+
+git diff (shows no changes)
+
+git stash list (shows stashes)
+
+do other work on other branches, ...
+
+come back to original branch
+
+git stash apply (stasjh is still there)
+
+-or-
+
+git stash pop (applies and removes stash)
+
+git stash drop 
+
+git stash clear (removes all)
+
+
+
+
+
+
+
+
+
