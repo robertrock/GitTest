@@ -341,11 +341,12 @@ git log (show revert message)
 Corey Shafer
 https://www.youtube.com/watch?v=KLEDKgMmbBI&list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx&index=3
 
-Using the Stash command - good if your editing on the wrong branch :) Just ===
+Using the Stash command - good if your editing on the wrong branch :) Just stash,
+checkout correct branch and stash apply
 
 edit your file(s), hack, hack, hack
 
-
+..
 can't switch branches because of changes
 
 git stash save "this is a change for xyz"
