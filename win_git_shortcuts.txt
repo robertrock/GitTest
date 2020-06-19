@@ -133,9 +133,9 @@ View commit history
 ===================
 git log
 
-git log -p -2 					                  (see last 2 commits and deltas)
+git log -p -2 					(see last 2 commits and deltas)
 
-git log stat  					                  (shows files changed)
+git log stat  					(shows files changed)
 
 git log --pretty=format:"%h %s" --graph. 	(graphical view)
 
@@ -157,19 +157,19 @@ git stash -u 			        (include untracked files in the stash, minus ignored fil
 
 git stash -a 			        (include untrack and ignored files)
 
-git stash list 			      (show stash list)
+git stash list 			        (show stash list)
 
-git stash apply 		      (Keeps the stash but doesn't restage)
+git stash apply 		        (Keeps the stash but doesn't restage)
 
-git stash apply --index 	(applies stash and also attempts to restage)
+git stash apply --index 		(applies stash and also attempts to restage)
 
-git stash pop --index 		(applies stash and also attempts to restage)
+git stash pop --index 			(applies stash and also attempts to restage)
 
-git stash pop.  		      (Apply stash and remove it)
+git stash pop.  		        (Apply stash and remove it)
 
-git stash clear 		      (removes all stashes)
+git stash clear 		        (removes all stashes)
 
-git stash drop stash@{0} 	(remove specific stash)
+git stash drop stash@{0} 		(remove specific stash)
 
 
 
@@ -341,8 +341,11 @@ git log (show revert message)
 Corey Shafer
 https://www.youtube.com/watch?v=KLEDKgMmbBI&list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx&index=3
 
-Using the Stash command - good if your editing on the wrong branch :) Just stash,
-checkout correct branch and stash apply
+Using the Stash command 
+
+- good if your editing on the wrong branch :)
+
+Just stash, checkout correct branch and stash apply
 
 edit your file(s), hack, hack, hack
 
@@ -368,6 +371,20 @@ git stash pop (applies and removes stash)
 git stash drop 
 
 git stash clear (removes all)
+
+
+===================================================================================
+Corey Shafer
+https://www.youtube.com/watch?v=iCGrKFH2oeo&list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx&index=4
+
+Diff and Merge tools
+
+DiffMerge for MacOs
+
+===================================================================================
+
+
+
 
 
 
