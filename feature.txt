@@ -8,6 +8,6 @@ new feature poo. f-branch pulled into dev
 
 checking out difftool -< crap, too slow
 meld sucked even worse
-VS Code ? maaybe. Intefaces wirh git.
+VS Code ? maybe. Intefaces wirh git.
 
 
