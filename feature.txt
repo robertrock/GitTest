@@ -10,6 +10,3 @@ checking out difftool -< crap, too slow
 meld sucked even worse
 VS Code ? maaybe. Intefaces wirh git.
 
-
-thrptjhrptohkprt
-rth[rkt[hprkl[tpklh[
