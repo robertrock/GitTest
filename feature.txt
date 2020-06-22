@@ -6,7 +6,9 @@ ofhjwoefiwoe_face_98098098
 new feature poo. f-branch pulled into dev
 
 
-checking out difftool
+checking out difftool -< crap, too slow
+meld sucked even worse
+VS Code ? maaybe. Intefaces wirh git.
 
 
 thrptjhrptohkprt
