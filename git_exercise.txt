@@ -23,3 +23,5 @@ Deleted remote.   Git push origin --delete <branch name>
 Deleted local	  git branch -d <branch name>
 
 Still need to work thru a merge example
+
+Here is a big issue: Life
