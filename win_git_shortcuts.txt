@@ -381,6 +381,8 @@ Diff and Merge tools
 
 DiffMerge for MacOs
 
+Try Visual Studio Code, Code Lens
+
 ===================================================================================
 
 
