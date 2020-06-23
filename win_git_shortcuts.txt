@@ -384,10 +384,24 @@ DiffMerge for MacOs
 Try Visual Studio Code, Code Lens
 
 ===================================================================================
+Corey Shafer
+https://www.youtube.com/watch?v=tcd4txbTtAY&list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx&index=6
+
+Git Tutorial: Difference between "add -A", "add -u", "add .", and "add *"
+
+(git reset  will reset an Add)
 
 
+git add -A	stage all modified, deleted, and new files. Default behavior
+
+git add -u	stage all modified and deleted, no new files
+
+git add .	same as -A if you're in the top level dir 
+
+git add *	'*' is a shell command/wild card, do not use 
 
 
+===================================================================================
 
 
 
