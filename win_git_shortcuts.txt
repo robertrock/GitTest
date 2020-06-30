@@ -171,6 +171,13 @@ git stash clear 		        (removes all stashes)
 
 git stash drop stash@{0} 		(remove specific stash)
 
+git stash show				view stash changes
+
+git stash show stash@{2}		see diff changes of a particular stash
+
+git stash show -p			see diff changes
+
+git stash branch <branch_name> stash@{5} create a branch fron a stash
 
 
 ===================================================================================
