@@ -58,7 +58,7 @@ or
 
 git reset HEAD <file>
 
-gut resert  			(to remove all files from staging)
+git resert  			(to remove all files from staging)
 
 
 
@@ -95,7 +95,6 @@ git branch -m <newname>
 
 List branches
 =============
-
 git branch          (local)
 
 git branch -a       (remote)
