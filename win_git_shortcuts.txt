@@ -411,7 +411,10 @@ git add *	'*' is a shell command/wild card, do not use
 ===================================================================================
 
 
+gets branches that have been pushed to remote repo and does not change local repo
 
+
+pull = fetch + merge
 
 
 
