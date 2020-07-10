@@ -1,0 +1,17 @@
+Git tutorial  https://www.youtube.com/watch?v=uIa9CejUcQM
+Matthew David
+
+Working Dir -> git add -> stagingnarea -> git commit -> local repo ---------> git push -----> remote repo
+                                                                   <--------- git pull <----- remote repo
+          <------------------ git checkout -------------
+
+Concepts
+========
+
+Fork is a copy of another project
+Clone is an exact copy of a Fork
+
+
+Clone-------main---------------------------
+         \-- new feature branch---/
+                                  merge to main
