@@ -51,15 +51,13 @@ git checkout -- <file>
 
 Un-stage a file
 ===============
-
 git reset <file>		(move file out of staging area)
 
 or 
 
 git reset HEAD <file>
 
-gut resert  			(to remove all files from staging)
-
+git reset  			(to remove all files from staging)
 
 
 
@@ -95,7 +93,6 @@ git branch -m <newname>
 
 List branches
 =============
-
 git branch          (local)
 
 git branch -a       (remote)
