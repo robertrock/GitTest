@@ -1,0 +1,28 @@
+Git tutorial  https://www.youtube.com/watch?v=uIa9CejUcQM
+Matthew David
+
+Working Dir -> git add -> stagingnarea -> git commit -> local repo ---------> git push -----> remote repo
+                                                                   <--------- git pull <----- remote repo
+          <------------------ git checkout -------------
+
+Concepts
+========
+
+Fork is a copy of another project
+Clone is an exact copy of a Fork
+
+
+Clone-------main---------------------------
+         \-- new feature branch---/
+                                  merge to main
+
+1 mkdir (for repo)
+2 cd to folder
+3 git init (creats .git folder)
+4 create a readme.txt file and save
+5 git status (file has not been added to staging area)
+6 git add readme.txt
+7 git commit -m "first commit"
+8 git push origin master
+
+

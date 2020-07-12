@@ -51,15 +51,18 @@ git checkout -- <file>
 
 Un-stage a file
 ===============
-
 git reset <file>		(move file out of staging area)
 
 or 
 
 git reset HEAD <file>
 
+<<<<<<< HEAD
 git resert  			(to remove all files from staging)
 
+=======
+git reset  			(to remove all files from staging)
+>>>>>>> 41c53bd6a721766eb8bae90be3372090d1fed78f
 
 
 
@@ -108,6 +111,14 @@ git push origin --delete <branch-name>
 Delete a local branch
 =====================
 git branch -d <branch-name>. (Or -D, to force)
+
+
+
+Removing an unstaged file
+=========================
+git clean -n to only list
+
+git clean -f to really delete
 
 
 Remove a file
@@ -410,7 +421,10 @@ git add *	'*' is a shell command/wild card, do not use
 ===================================================================================
 
 
+gets branches that have been pushed to remote repo and does not change local repo
 
+
+pull = fetch + merge
 
 
 
