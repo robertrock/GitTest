@@ -57,7 +57,12 @@ or
 
 git reset HEAD <file>
 
+<<<<<<< HEAD
+git resert  			(to remove all files from staging)
+
+=======
 git reset  			(to remove all files from staging)
+>>>>>>> 41c53bd6a721766eb8bae90be3372090d1fed78f
 
 
 
