@@ -111,6 +111,14 @@ Delete a local branch
 git branch -d <branch-name>. (Or -D, to force)
 
 
+
+Removing an unstaged file
+=========================
+git clean -n to only list
+
+git clean -f to really delete
+
+
 Remove a file
 =============
 remove from OS. $rm myfile
