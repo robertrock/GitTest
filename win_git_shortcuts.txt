@@ -1,3 +1,5 @@
+
+
 https://githowto.com/aliases
 Https://git-scm.com/docs
 
@@ -248,7 +250,7 @@ git commit -m "message"
 
 git pull origin development  (reconcile with other devs' code)
 
-git push origin development
+git push origin <feature-branch>
 
 --common workflow-------------------
 
