@@ -63,4 +63,8 @@ pokpokpokpokpokpok
 
 this will be stashed
 
+<<<<<<< Updated upstream
 this was edited on github site directly and committed
+=======
+this was editted locallty
+>>>>>>> Stashed changes
