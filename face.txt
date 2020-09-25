@@ -65,4 +65,8 @@ this will be stashed
 
 this was edited on github site directly and committed
 
+<<<<<<< Updated upstream
 on github stash test #2
+=======
+stash test #2
+>>>>>>> Stashed changes
