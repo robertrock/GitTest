@@ -63,12 +63,7 @@ pokpokpokpokpokpok
 
 this will be stashed
 
-<<<<<<< Updated upstream
-this was edited on github site directly and committed
-<<<<<<< HEAD
-=======
-this was editted locallty
-=======
+
 
 <<<<<<< Updated upstream
 on github stash test #2
