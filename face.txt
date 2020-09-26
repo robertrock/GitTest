@@ -61,18 +61,3 @@ pokpokpokpokpokpok
 
 
 
-this will be stashed
-
-<<<<<<< Updated upstream
-this was edited on github site directly and committed
-<<<<<<< HEAD
-=======
-this was editted locallty
-=======
-
-<<<<<<< Updated upstream
-on github stash test #2
-=======
-stash test #2
->>>>>>> 948b4980c95c8e909285d66124625962e1a847fe
->>>>>>> Stashed changes
