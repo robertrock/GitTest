@@ -63,16 +63,6 @@ pokpokpokpokpokpok
 
 this will be stashed
 
-
-
-<<<<<<< Updated upstream
-on github stash test #2
-=======
-stash test #2
->>>>>>> 948b4980c95c8e909285d66124625962e1a847fe
->>>>>>> Stashed changes
-
-
 added on github
 
 new stuff locally
