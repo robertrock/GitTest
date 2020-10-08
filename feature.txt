@@ -10,4 +10,4 @@ checking out difftool -< crap, too slow
 meld sucked even worse
 VS Code ? maybe. Intefaces wirh git.
 
-and a 1,2,3
+and a 1,2,3,4,5,6
