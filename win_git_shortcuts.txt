@@ -432,4 +432,47 @@ pull = fetch + merge
 
 
 
-=========================== Git by Mosh ============================================
+=========================== Notes ============================================
+Getting ready for a new fix/feature:
+==============================================================================
+
+// refresh dev
+Git co development
+Git pull origin development
+
+// create a feature branch
+Git co -b rlt-AD123
+
+// make changes in feature branch
+Hack, hack, hack…..
+
+// someone has made changes in dev branch that YOU need (or for just updating your branch)
+// merge their changes to your branch
+//
+// 1. Stash changes as needed:
+git stash                                              (changed tracked files)
+git stash -u 			        (include untracked files in the stash, minus ignored files)
+git stash -a 			        (include untracked and ignored files)
+
+// 2. Merge changes from local dev to local branch
+Git co development
+Git pull origin development  <<--refresh local dev from server
+
+Git checkout rlt-AD123
+Git merge development        <<--merge local dev to your branch
+
+// 3. re-apply the stash (could cause conflicts)
+Git stash pop
+
+// Continue
+Hack, hack, hack….
+
+// Stage
+Git add -A
+
+// commit
+Git com -m "your message"
+
+// push to server
+Git push origin rlt-AD123
+
